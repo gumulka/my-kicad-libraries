@@ -38,7 +38,7 @@ zip -qrD ${PROJECT_NAME} Gerbers
 
 ## BOM
 mkdir Fabrication
-kicad-cli sch export bom ${PROJECT_NAME}.kicad_sch --group-by Value,Footprint --exclude-dnp --fields "Reference,Value,Footprint,\${QUANTITY},LCSC#" --labels "Refs,Value,Footprint,Qty,LCSC#" -o "Fabrication/${PROJECT_NAME}_bom.csv"
+kicad-cli sch export bom ${PROJECT_NAME}.kicad_sch --ref-range-delimiter "" --group-by Value,Footprint --exclude-dnp --fields "Reference,Value,Footprint,\${QUANTITY},LCSC#" --labels "Refs,Value,Footprint,Qty,LCSC#" -o "Fabrication/${PROJECT_NAME}_bom.csv"
 
 ## Position file
 kicad-cli pcb export pos ${PROJECT_NAME}.kicad_pcb --exclude-dnp --units mm --format csv -o ${PROJECT_NAME}.pos

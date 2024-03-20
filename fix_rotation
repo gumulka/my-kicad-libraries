@@ -11,6 +11,7 @@ mappings = {
     "SOT-223": 180,
     "SOT-363": 180,
     "SOT-23": 180,
+    "SOT-23-5": 90,
     "SOT-23W": 90,
     "VQFN-24": 270,
     "Sensirion_DFN-4": 270,
