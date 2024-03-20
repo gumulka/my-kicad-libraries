@@ -3,17 +3,25 @@
 import argparse
 import csv
 
+# 90 degrees clock wise = 270
+# 90 degrees counter clock wise = 90
+
 mappings = {
+    "LQFP-48": 270,
     "PinHeader": 90,
     "QFN-28": 270,
     "QFN-48": 270,
+    "QFN-64": 270,
     "SOIC-16": 270,
+    "SOIC-8": 270,
     "SOT-223": 180,
     "SOT-363": 180,
     "SOT-23": 180,
     "SOT-23-5": 90,
     "SOT-23W": 90,
+    "SOT-666": 270,
     "VQFN-24": 270,
+    "VSSOP-8": 180,
     "Sensirion_DFN-4": 270,
 }
 

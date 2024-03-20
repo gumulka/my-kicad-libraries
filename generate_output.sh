@@ -31,7 +31,7 @@ rm -rf Gerbers/ ${PROJECT_NAME}.zip Fabrication/ Output/
 ## Gerber files
 mkdir Gerbers
 cd Gerbers
-kicad-cli pcb export gerbers ../${PROJECT_NAME}.kicad_pcb
+kicad-cli pcb export gerbers -D version=`git -C ${PROJECT_DIR} describe --tags` -D date=`git -C ${PROJECT_DIR} show -s --format=%cd --date=format:'%d.%m.%Y'` ../${PROJECT_NAME}.kicad_pcb
 kicad-cli pcb export drill ../${PROJECT_NAME}.kicad_pcb
 cd -
 zip -qrD ${PROJECT_NAME} Gerbers
