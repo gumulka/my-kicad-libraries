@@ -1,0 +1,144 @@
+(footprint "Safety-pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "153f637c-4c1a-476e-9279-8f3057c4470a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Safety-pin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5db5c739-669c-4a09-bfab-2904cf072ae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4567f526-3889-4415-958c-e3e19227d1c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba98b326-f792-4b36-a736-d3cdaeff2f50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2aec868-18e3-400a-9171-2ccf5bbb76d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -20 -1.5)
+		(end 20 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "851f1d34-124d-4007-963c-ef5dd00daa7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0126bfe7-5d16-464f-80df-90003a1e0b42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "MP" smd roundrect
+		(at -15 0)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e6fd8995-303b-4d66-bd72-1e6f0a11dccf")
+	)
+	(pad "MP" smd roundrect
+		(at -7.5 0)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "030b1a82-425d-4e97-9b1b-a5ca19561476")
+	)
+	(pad "MP" smd roundrect
+		(at 0 0)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0bc2a5fd-c463-425b-ad79-7f1eb227f323")
+	)
+	(pad "MP" smd roundrect
+		(at 7.5 0)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "84d09871-9f6b-4db9-aef6-d938088d32aa")
+	)
+	(pad "MP" smd roundrect
+		(at 15 0)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0e22a27a-0666-4b31-ad8b-5bd76da436fd")
+	)
+	(model "${KIPRJMOD}/libraries/g-Misc.pretty/safety_pin.step"
+		(offset
+			(xyz 0 -1 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 15 178 -2)
+		)
+	)
+)
