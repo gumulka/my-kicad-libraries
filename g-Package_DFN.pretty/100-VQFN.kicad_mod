@@ -67,6 +67,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "f67301b2-b926-4cec-9a73-4c477878ae63")
+	)
 	(fp_line
 		(start -6.4 -6.4)
 		(end -6.4 -5.2)
