@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "g-Package_DFN:8-WSON_2x2mm"
 			(at -1.27 7.62 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina381.pdf"
 			(at -1.27 7.62 0)
 			(effects
 				(font
